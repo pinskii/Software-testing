@@ -1,4 +1,4 @@
-import castArray from '../files/CastArray';
+import castArray from '../files/castArray.js';
 
 describe('castArray function', () => {
   test('casts a non-array value to an array', () => {

@@ -1,4 +1,4 @@
-import words from '../files/Words';
+import words from '../files/words.js';
 
 describe('words function', () => {
   test('splits string into an array of words', () => {

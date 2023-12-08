@@ -1,4 +1,4 @@
-import toString from '../files/ToString';
+import toString from '../files/toString.js';
 
 describe('toString function', () => {
   test('converts various values to strings', () => {

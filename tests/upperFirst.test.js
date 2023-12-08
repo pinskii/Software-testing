@@ -1,4 +1,4 @@
-import upperFirst from '../files/UpperFirst';
+import upperFirst from '../files/upperFirst.js';
 
 describe('upperFirst function', () => {
   test('converts the first character of a string to upper case', () => {

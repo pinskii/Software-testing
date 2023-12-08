@@ -1,4 +1,4 @@
-import every from '../files/Every';
+import every from '../files/every.js';
 
 describe('every function', () => {
   test('returns true if all elements pass the predicate check', () => {
