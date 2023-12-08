@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Testing project",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "test": "mocha --timeout 10000 --recursive",
+    "test": "jest",
     "coverage": "c8 npm run test || true && c8 report --reporter=lcov"
   },
   "author": "",
