@@ -25,7 +25,7 @@ jobs:
         - name: Install
           run: npm install
         - name: Run tests
-          run: npm test
+          run: npm test --experimental-vm-modules
   coveralls:
       needs: build
       runs-on: ubuntu-latest
