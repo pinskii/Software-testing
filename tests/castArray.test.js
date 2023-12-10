@@ -8,6 +8,7 @@ describe('castArray function', () => {
     expect(castArray(null)).toEqual([null]);
     expect(castArray(undefined)).toEqual([undefined]);
     expect(castArray()).toEqual([]);
+    expect(castArray(true)).toEqual([true]);
   });
 
   test('does not modify an existing array', () => {
