@@ -12,7 +12,7 @@ describe('compact function', () => {
   });
 
   test('returns an empty array if all values are falsy', () => {
-    const input = [0, false, ''];
+    const input = [null, NaN, undefined];
     const result = compact(input);
 
     expect(result).toEqual([]);
